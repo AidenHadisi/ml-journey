@@ -1,0 +1,37 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Conda environment files and package caches
+.env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Ignore Conda environment data
+conda-meta/
+pkgs/
+*.conda
+*.tar.bz2
+
+# Ignore virtual environments (if using venv)
+env/
+venv/
+
+# Ignore log files
+*.log
+
+# Ignore Jupyter Notebook auto-generated files
+*.sav
+*.nbconvert.ipynb
+
+# Ignore personal Jupyter Notebook config and history
+.jupyter/
+.history/
+.ipython/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
